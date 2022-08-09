@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.wraper{
+    margin: 0 100px;
+    max-width: 1920px;
+    padding: 0 30px;
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+}
+
+#Ellipse_18, #team{
+
+}
+#team1, #team-2{
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    transition: all .4s ease-in-out;
+}
+#team2-text{
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all .4s ease-in-out;
+}
+
+
+#pattern{
+    border: 1px solid red;
+}
+
+.tool-tip{
+    position: absolute;
+    z-index: 1;
+}
+
